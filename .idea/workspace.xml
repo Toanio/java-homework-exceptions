@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23771f4e-3168-4563-82b0-cf13c3544395" name="Default Changelist" comment="" />
+    <list default="true" id="23771f4e-3168-4563-82b0-cf13c3544395" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/repository/ProductRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -43,7 +51,7 @@
       <recent name="ru.netology.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.shouldCastFromBaseClass">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.shouldThrowException">
     <configuration name="BookTest.shouldCastFromBaseClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="products" />
       <extension name="coverage">
@@ -76,8 +84,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductRepositoryTest.shouldDeleteIfExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.repository" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldDeleteIfExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.shouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.repository" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.shouldThrowException" />
+        <item itemvalue="JUnit.ProductRepositoryTest.shouldDeleteIfExist" />
         <item itemvalue="JUnit.BookTest.shouldCastFromBaseClass" />
         <item itemvalue="JUnit.BookTest.shouldUseOverridedMethod" />
       </list>
@@ -99,26 +141,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="678" y="351" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1598542739600" />
+    <state x="719" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1605108476990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605108476990" />
     <state x="765" y="336" key="FileChooserDialogImpl" timestamp="1598543085365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598543085365" />
-    <state width="1854" height="266" key="GridCell.Tab.0.bottom" timestamp="1598625491999">
+    <state width="1872" height="268" key="GridCell.Tab.0.bottom" timestamp="1605109174230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1854" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598625491999" />
-    <state width="1854" height="266" key="GridCell.Tab.0.center" timestamp="1598625491998">
+    <state width="1872" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605109174230" />
+    <state width="1872" height="268" key="GridCell.Tab.0.center" timestamp="1605109174230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1854" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598625491998" />
-    <state width="1854" height="266" key="GridCell.Tab.0.left" timestamp="1598625491998">
+    <state width="1872" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605109174230" />
+    <state width="1872" height="268" key="GridCell.Tab.0.left" timestamp="1605109174230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1854" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598625491998" />
-    <state width="1854" height="266" key="GridCell.Tab.0.right" timestamp="1598625491999">
+    <state width="1872" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605109174230" />
+    <state width="1872" height="268" key="GridCell.Tab.0.right" timestamp="1605109174230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1854" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598625491999" />
+    <state width="1872" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605109174230" />
     <state width="1854" height="331" key="GridCell.Tab.1.bottom" timestamp="1598542957840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
